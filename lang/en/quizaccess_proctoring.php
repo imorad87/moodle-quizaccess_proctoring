@@ -33,6 +33,8 @@ $string['privacy:metadata'] = 'We do not share any personal data with third part
 $string['proctoringheader'] = '<strong>To continue with this quiz attempt you must open your webcam, and it will take some of your pictures randomly during the quiz.</strong>';
 $string['proctoringlabel'] = 'I agree with the validation process.';
 $string['screensharemsg'] = '';
+$string['screensharehtml'] = '<video style="display: none" width="100" id="screen-share" autoplay />';
+$string['screensharebuttonhtml'] = '<button class="btn-primary" width="100" id="screen-share-btn">Share Screen</button>';
 $string['screenhtml'] = '<span><video style="display: none" width="100" id="video-screen" autoplay></video></span><canvas id="canvas-screen" style="display:none;"></canvas><img id="photo-screen" alt="The picture will appear in this box." style="display:none;"/><span class="output-screen" style="display:none;"></span><span id="log-screen" style="display:none;"></span>';
 $string['proctoringstatement'] = 'This exam requires webcam access.<br />(Please allow webcam access).';
 $string['camhtml'] = '<div class="camera"> <video width="100" id="video">Video stream not available.</video></div> <canvas id="canvas" style="display:none;"> </canvas> <img style="display:none;" id="photo" alt="The screen capture will appear in this box."/>';
@@ -106,6 +108,7 @@ $string['setting:fcthresholddesc'] = 'Face match threshold percentage.';
 $string['buttonlabel:deletebutton'] = 'Delete images';
 $string['warning:camera allow warning'] = 'Please allow camera access.';
 $string['warning:cameraallowwarning'] = 'Please allow camera access.';
+$string['warning:screenallowwarning'] = 'Please allow screen sharing.';
 
 $string['settingscontroll:save'] = 'Save Settings';
 $string['settingscontroll:deleteall'] = 'Purge All Proctoring Data';
